@@ -92,7 +92,6 @@ Compara regiões (N, NE, CO, SE, S) e traz evolução **anual** com foco em ritm
 Modelo **estrela**: uma **Fato** (métricas de cobertura + chaves) e dimensões de **Calendário**, **Região**, **UF**, **Município**, **Tecnologia**, **Operadora**.\
 Relacionamentos 1:\* da dimensão para a fato; os filtros fluem da dimensão para a fato.
 
-### 💻 Modelo Estrela
 
 ![Modelo Estrela](imagens/modelo_estrela.png)
 
@@ -113,7 +112,6 @@ BI_Telecom_Brasil/
 ├─ dados/ Meu_Municipio_Cobertura.csv
 ├─ painel/ BI_Telecom_Brasil.pbix
 ├─ imagens/ (prints dos painéis e filtros)
-├─ documentacao/ (opcional)
 ├─ .gitignore • LICENSE • README.md
 ```
 

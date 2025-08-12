@@ -1,21 +1,16 @@
-MIT License
-
+Licença e Uso dos Dados
 Copyright (c) 2025 Márcio Xavier do Nascimento
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Este trabalho foi desenvolvido por mim, Márcio Xavier do Nascimento, como parte do Trabalho de Conclusão de Curso (TCC) da minha pós-graduação em Banco de Dados e Power BI.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Os dados utilizados foram obtidos a partir do portal oficial de dados abertos do Governo Federal do Brasil:
+https://dados.gov.br/dados/conjuntos-dados/meu-municipio---acessos-e-cobertura-de-telecomunicacoes
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Conforme a Política de Dados Abertos do Governo Federal, estes dados são livres para uso, redistribuição e adaptação, desde que seja citada a fonte.
+
+PERMISSÃO É CONCEDIDA, gratuitamente, a qualquer pessoa que obtenha uma cópia deste material e dos arquivos associados, para lidar com o conteúdo sem restrições, incluindo, sem limitação, os direitos de usar, copiar, modificar, mesclar, publicar, distribuir, sublicenciar e/ou vender cópias do material, e permitir que pessoas a quem o material é fornecido façam o mesmo, sujeito às seguintes condições:
+
+1. É obrigatória a manutenção deste aviso de autoria e da referência à fonte original.
+2. Não é permitido apresentar este trabalho como se fosse de outra autoria.
+
+O MATERIAL É FORNECIDO "NO ESTADO EM QUE SE ENCONTRA" ("AS IS"), SEM GARANTIAS DE QUALQUER TIPO, EXPRESSAS OU IMPLÍCITAS, INCLUINDO, MAS NÃO SE LIMITANDO, A GARANTIAS DE COMERCIALIZAÇÃO, ADEQUAÇÃO A UM PROPÓSITO ESPECÍFICO OU NÃO VIOLAÇÃO DE DIREITOS. EM NENHUMA CIRCUNSTÂNCIA O AUTOR SERÁ RESPONSÁVEL POR QUALQUER RECLAMAÇÃO, DANO OU OUTRA RESPONSABILIDADE, SEJA EM UMA AÇÃO CONTRATUAL, DELITO OU OUTRA FORMA, DECORRENTE DE OU EM CONEXÃO COM O MATERIAL OU O USO OU OUTROS NEGÓCIOS COM O MATERIAL.
