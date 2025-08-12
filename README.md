@@ -47,13 +47,13 @@ bi-telecom-brasil/
 
 ## 📊 Visuais do painel
 ### Painel 1 – Capa
-![Capa](imagens/painel1_capa.png)
+![Capa](imagens/tela_inicial.png)
 
 ### Painel 2 – Estado
-![Estado](imagens/painel2_estado.png)
+![Estado](imagens/painel_estado.png)
 
 ### Painel 3 – Região
-![Região](imagens/painel3_regiao.png)
+![Região](imagens/painel_região.png)
 
 **Exemplos de comparação**
 - 5G/CLARO:  
