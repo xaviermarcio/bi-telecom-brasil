@@ -54,6 +54,12 @@ Compara regiões (N, NE, CO, SE, S) e traz evolução **anual** com foco em ritm
 ![Painel Inicial](imagens/painel3_regiao.png)
 
 
+##  Dashboard - Filtros
+
+### Filtros no painel Estado
+
+| ![Estado](imagens/filtro_estado_uf.png) | ![Operadora](imagens/filtro_operadora_uf.png) | ![Ano](imagens/filtro_ano_uf.png)
+
 ### ⚖️ Exemplo de filtro Comparação 4G — Claro (Norte × Sudeste)
 
 | Norte | Sudeste |
