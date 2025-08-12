@@ -62,13 +62,17 @@ Compara regiões (N, NE, CO, SE, S) e traz evolução **anual** com foco em ritm
 |---|---|---|
 | ![Estado](imagens/filtro_estado_uf.png) | ![Operadora](imagens/filtro_operadora_uf.png) | ![Ano](imagens/filtro_ano_uf.png)
 
+### Filtros no painel Região
+
+| Região | Tecnologia | Operadora |
+|---|---|---|
+| ![Região](imagens/filtro_regiao_regiao.png) | ![Tecnologia](imagens/filtro_regiao_tecnologia.png) | ![Operadora](imagens/filtro_regiao_operadora.png)
+
 ### ⚖️ Exemplo de filtro Comparação 4G — Claro (Norte × Sudeste)
 
 | Norte | Sudeste |
 |---|---|
 | ![Norte 4G Claro](imagens/comparacao_norte.png) | ![Sudeste 4G Claro](imagens/comparacao_sudeste.png) |
-
-
 
 
 
@@ -83,10 +87,14 @@ Compara regiões (N, NE, CO, SE, S) e traz evolução **anual** com foco em ritm
 
 ---
 
-## 🧱 Modelo (resumo)
+## 🧱 Modelo 
 
 Modelo **estrela**: uma **Fato** (métricas de cobertura + chaves) e dimensões de **Calendário**, **Região**, **UF**, **Município**, **Tecnologia**, **Operadora**.\
 Relacionamentos 1:\* da dimensão para a fato; os filtros fluem da dimensão para a fato.
+
+### 💻 Modelo Estrela
+
+![Modelo Estrela](imagens/modelo_estrela.png)
 
 ---
 
