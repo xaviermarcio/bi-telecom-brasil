@@ -18,8 +18,7 @@ Link: https://dados.gov.br/dados/conjuntos-dados/meu-municipio---acessos-e-cober
 > Os valores acima refletem este arquivo específico; podem mudar quando a base for atualizada.
 
 
-## 🧰 Como os dados foram tratados
-
+## 🧰 Power Query - Como os dados foram tratados
 
 1. **Leitura do CSV** com `;` como separador e vírgula como decimal (UTF-8).
 2. **Padronização de tipos**: `Ano`/`Mês` inteiros; percentuais como **float** (0–100).
@@ -33,9 +32,6 @@ Link: https://dados.gov.br/dados/conjuntos-dados/meu-municipio---acessos-e-cober
 5. **Modelagem** (esquema estrela):
    - **Fato**: linhas por Município–Operadora–Tecnologia–Ano com `% moradores`, `% domicílios`, `% área`.
    - **Dimensões**: Calendário (Ano), Região, UF, Município (c/ código IBGE), Operadora, Tecnologia.
-6. **Power Query** (tratamento de dados):
-
-![Tratamento dos dados](imagens/power_query.png)
 
 ## 🗂️ Dicionário rápido
 - **Ano, Mês** — referência temporal.

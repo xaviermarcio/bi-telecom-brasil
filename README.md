@@ -8,7 +8,7 @@ Dashboard em **Power BI** para visualizar a cobertura **2G/3G/4G/5G** no Brasil 
 
 - **Objetivo:** mostrar **quanto** cada tecnologia móvel cobre, onde cobre e **como evoluiu ao longo dos anos**.
 - **Público-alvo:** gestores e analistas que precisam de **leituras rápidas** e comparações.
-- **Navegação:** 3 painéis curtos → **Capa** → **Estado** → **Região**.
+- **Navegação:** 3 painéis → **Capa** → **Estado** → **Região**.
 
 ---
 
@@ -68,7 +68,7 @@ Compara regiões (N, NE, CO, SE, S) e traz evolução **anual** com foco em ritm
 |---|---|---|
 | ![Região](imagens/filtro_regiao_regiao.png) | ![Tecnologia](imagens/filtro_regiao_tecnologia.png) | ![Operadora](imagens/filtro_regiao_operadora.png)
 
-### ⚖️ Exemplo de filtro Comparação 4G — Claro (Norte × Sudeste)
+### 💻 Exemplo de filtro Comparação 4G — Claro (Norte × Sudeste)
 
 | Norte | Sudeste |
 |---|---|
