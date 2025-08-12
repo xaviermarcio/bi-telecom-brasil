@@ -4,7 +4,7 @@ Dashboard em **Power BI** para visualizar a cobertura **2G/3G/4G/5G** no Brasil 
 
 ---
 
-## 🔎 Visão geral (em 1 minuto)
+## 🔎 Visão geral 
 
 - **Objetivo:** mostrar **quanto** cada tecnologia móvel cobre, onde cobre e **como evoluiu ao longo dos anos**.
 - **Público-alvo:** gestores e analistas que precisam de **leituras rápidas** e comparações.
@@ -15,15 +15,18 @@ Dashboard em **Power BI** para visualizar a cobertura **2G/3G/4G/5G** no Brasil 
 ## 📊 Painéis
 
 **1) Capa**\
-Identificação do trabalho (Senac, curso/disciplina, autor e orientador) e acesso aos demais painéis.
+Identificação do trabalho (Senac, curso/disciplina, autor e orientador) e acesso aos demais painéis.\
+
 
 **2) Estado (UF)**\
 Filtros: **UF**, **Operadora**, **Ano**.\
-Mostra **Moradores Cobertos (%)**, **Domicílios Cobertos (%)**, **Área Coberta (%)**, **Total de Municípios**, **mapa** da UF e **barras 2G–5G**.
+Mostra **Moradores Cobertos (%)**, **Domicílios Cobertos (%)**, **Área Coberta (%)**, **Total de Municípios**, **mapa** da UF e **barras 2G–5G**.\
+
 
 **3) Região**\
 Filtros: **Região**, **Tecnologia**, **Operadora**, **Ano**.\
-Compara regiões (N, NE, CO, SE, S) e traz evolução **anual** com foco em ritmo de implantação.
+Compara regiões (N, NE, CO, SE, S) e traz evolução **anual** com foco em ritmo de implantação.\
+
 
 > **Exemplo:** 5G/Claro acelerou de 2022→2023 no **Centro‑Oeste** (0 → 0,52% → 3,46%) vs **Nordeste** (0 → 0,46% → 1,67%).
 
@@ -36,6 +39,13 @@ Compara regiões (N, NE, CO, SE, S) e traz evolução **anual** com foco em ritm
 
 - **Sudeste**: 2021 → **16,98%**, 2022 → **48,22%**, 2023 → **48,47%** (média de área coberta).\
 
+## 📸 Screenshots
+
+### ⚖️ Exemplo de filtro Comparação 4G — Claro (Norte × Sudeste)
+
+| Norte | Sudeste |
+|---|---|
+| ![Norte 4G Claro](imagens/comparacao_norte.png) | ![Sudeste 4G Claro](imagens/comparacao_sudeste.png) |
 
 ## 🧮 KPIs (como calculei)
 
@@ -74,10 +84,7 @@ BI_Telecom_Brasil/
 ├─ .gitignore • LICENSE • README.md
 ```
 
-**Imagens esperadas em ****\`\`****:** `painel1_capa.png`, `painel2_estado.png`, `painel3_regiao.png`,\
-`painel3_regiao_centro-oeste_5g_claro.png`, `painel3_regiao_nordeste_5g_claro.png`,\
-`painel3_regiao_sudeste_4g_vivo.png`, `painel3_regiao_norte_4g_vivo.png`,\
-`modelo_dados.png`, `filtro_uf_dropdown.png`, `filtro_operadora_dropdown.png`, `filtro_ano_dropdown.png`.
+Imagens utilizadas ficam na pasta `imagens/` do repositório.
 
 ---
 
@@ -95,8 +102,7 @@ BI_Telecom_Brasil/
 
 Construí este dashboard como meu **TCC** na pós em Banco de Dados & BI (Senac). Minha meta foi transformar a base da ANATEL em respostas objetivas: **onde** cada tecnologia (2G–5G) chega, **quanto** cobre e **como** evolui no tempo. Estruturei tudo para **leitura rápida**: KPIs claros, filtros que seguem o fluxo de análise e comparações entre **regiões, UFs e operadoras**.
 
-**Citação sugerida:**\
-*Nascimento, M. X. (2023–2025). BI – Cobertura de Telefonia Móvel no Brasil. GitHub. Dados: ANATEL.*
 
+*Marcio Xavier. (2023–2025). BI – Cobertura de Telefonia Móvel no Brasil. GitHub. Dados: ANATEL.*
 
 
