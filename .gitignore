@@ -1,0 +1,24 @@
+# SO
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+
+# Power BI (temporários/backups)
+~$*.pbix
+~$*.pbit
+*.pbix.tmp
+*.pbix.backup
+*.pbit.tmp
+
+# Cache Python/notebooks (se usar)
+__pycache__/
+.ipynb_checkpoints/
+
+# Arquivos grandes compactados (opcional)
+*.zip
+*.7z
+*.rar
+*.bak
