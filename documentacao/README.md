@@ -19,7 +19,7 @@ Convenção deste painel: total Brasil = **5.568 municípios**
 
 ---
 
-## 2) Como tratei os dados (Power Query – resumo)
+## 2) Como tratei os dados (Power Query)
 - Leitura do CSV com `;` e vírgula como decimal (UTF-8).
 - Tipos: `Ano`/`Mês` inteiros; percentuais como número (0–100).
 - Higiene: remoção de linhas vazias, ajuste de acentos/espacos em município/UF.
