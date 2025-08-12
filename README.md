@@ -39,13 +39,32 @@ Compara regiões (N, NE, CO, SE, S) e traz evolução **anual** com foco em ritm
 
 - **Sudeste**: 2021 → **16,98%**, 2022 → **48,22%**, 2023 → **48,47%** (média de área coberta).\
 
-## 📸 Screenshots
+## 📸 Dashboard - Imagens
+
+### 💻 Painel Inicial  
+
+![Painel Inicial](imagens/painel1_capa.png)
+
+### 💻 Painel Estado
+
+![Painel Inicial](imagens/painel2_estado.png)
+
+### 💻 Painel Região
+
+![Painel Inicial](imagens/painel3_regiao.png)
+
+
+
 
 ### ⚖️ Exemplo de filtro Comparação 4G — Claro (Norte × Sudeste)
 
 | Norte | Sudeste |
 |---|---|
 | ![Norte 4G Claro](imagens/comparacao_norte.png) | ![Sudeste 4G Claro](imagens/comparacao_sudeste.png) |
+
+
+
+
 
 ## 🧮 KPIs (como calculei)
 
