@@ -15,7 +15,7 @@ Dashboard em **Power BI** para visualizar a cobertura **2G/3G/4G/5G** no Brasil 
 ## 📊 Painéis
 
 **1) Capa**\
-Identificação do trabalho (Senac, curso/discipina, autor e orientador) e acesso aos demais painéis.
+Identificação do trabalho (Senac, curso/disciplina, autor e orientador) e acesso aos demais painéis.
 
 **2) Estado (UF)**\
 Filtros: **UF**, **Operadora**, **Ano**.\
@@ -28,6 +28,14 @@ Compara regiões (N, NE, CO, SE, S) e traz evolução **anual** com foco em ritm
 > **Exemplo:** 5G/Claro acelerou de 2022→2023 no **Centro‑Oeste** (0 → 0,52% → 3,46%) vs **Nordeste** (0 → 0,46% → 1,67%).
 
 ---
+
+**Comparação 4G – Claro (Norte × Sudeste)**
+
+- **Norte**: 2021 → **12,82%**, 2022 → **31,19%**, 2023 → **31,24%** (média de área coberta).\
+
+
+- **Sudeste**: 2021 → **16,98%**, 2022 → **48,22%**, 2023 → **48,47%** (média de área coberta).\
+
 
 ## 🧮 KPIs (como calculei)
 
@@ -43,7 +51,7 @@ Compara regiões (N, NE, CO, SE, S) e traz evolução **anual** com foco em ritm
 ## 🧱 Modelo (resumo)
 
 Modelo **estrela**: uma **Fato** (métricas de cobertura + chaves) e dimensões de **Calendário**, **Região**, **UF**, **Município**, **Tecnologia**, **Operadora**.\
-Relacionamentos \**1:* \*\* da dimensão para a fato; filtros fluem da dimensão para a fato.
+Relacionamentos 1:\* da dimensão para a fato; os filtros fluem da dimensão para a fato.
 
 ---
 
@@ -66,8 +74,7 @@ BI_Telecom_Brasil/
 ├─ .gitignore • LICENSE • README.md
 ```
 
-**Imagens esperadas em ****\`\`****:**\
-`painel1_capa.png`, `painel2_estado.png`, `painel3_regiao.png`,\
+**Imagens esperadas em ****\`\`****:** `painel1_capa.png`, `painel2_estado.png`, `painel3_regiao.png`,\
 `painel3_regiao_centro-oeste_5g_claro.png`, `painel3_regiao_nordeste_5g_claro.png`,\
 `painel3_regiao_sudeste_4g_vivo.png`, `painel3_regiao_norte_4g_vivo.png`,\
 `modelo_dados.png`, `filtro_uf_dropdown.png`, `filtro_operadora_dropdown.png`, `filtro_ano_dropdown.png`.
@@ -86,8 +93,10 @@ BI_Telecom_Brasil/
 
 ## 🙋🏻‍♂️ Sobre o trabalho
 
-Construí este dashboard como meu TCC na pós em Banco de Dados & BI (Senac). Minha meta foi transformar a base da ANATEL em respostas objetivas: onde cada tecnologia (2G–5G) chega, quanto cobre e como evolui no tempo. Estruturei tudo para leitura rápida: KPIs claros, filtros que seguem o fluxo de análise e comparações entre regiões, UFs e operadoras
+Construí este dashboard como meu **TCC** na pós em Banco de Dados & BI (Senac). Minha meta foi transformar a base da ANATEL em respostas objetivas: **onde** cada tecnologia (2G–5G) chega, **quanto** cobre e **como** evolui no tempo. Estruturei tudo para **leitura rápida**: KPIs claros, filtros que seguem o fluxo de análise e comparações entre **regiões, UFs e operadoras**.
 
-Nascimento, M. X. (2023–2025). BI – Cobertura de Telefonia Móvel no Brasil. GitHub. Dados: ANATEL.
+**Citação sugerida:**\
+*Nascimento, M. X. (2023–2025). BI – Cobertura de Telefonia Móvel no Brasil. GitHub. Dados: ANATEL.*
+
 
 
