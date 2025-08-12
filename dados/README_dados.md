@@ -9,13 +9,14 @@ Link: https://dados.gov.br/dados/conjuntos-dados/meu-municipio---acessos-e-cober
 - **Linhas:** 1.013.741
 - **Colunas:** 13
 - **Período:** 2021–2023 (`Ano`)
-- **UFs:** 27
-- **Municípios:** 5.570
+- **UFs:** 27 (Ano)
+- **Municípios:** 5.568 (`não contamos o Distrito Federal nem o distrito estadual de Fernando de Noronha, pois não são municípios.`)
 - **Operadoras:** ALGAR, CLARO, LIGUE, NEXTEL, OI, SERCOMTEL, TIM, VIVO, *e* “Todas”
 - **Tecnologias:** 2G, 3G, 4G, 5G, *e* categorias combinadas (3G4G, 4G5G, “Todas”)
 - **Nulos nos %** (`% moradores`, `% domicílios`, `% área`): ~**0,09%** em cada
 
 > Os valores acima refletem este arquivo específico; podem mudar quando a base for atualizada.
+
 
 ## 🧰 Como os dados foram tratados
 
@@ -32,8 +33,7 @@ Link: https://dados.gov.br/dados/conjuntos-dados/meu-municipio---acessos-e-cober
 5. **Modelagem** (esquema estrela):
    - **Fato**: linhas por Município–Operadora–Tecnologia–Ano com `% moradores`, `% domicílios`, `% área`.
    - **Dimensões**: Calendário (Ano), Região, UF, Município (c/ código IBGE), Operadora, Tecnologia.
-
-### 💻 Power Query 
+6. **Power Query** (tratamento de dados):
 
 ![Tratamento dos dados](imagens/power_query.png)
 
